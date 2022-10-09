@@ -229,6 +229,7 @@ div.carousel {
 
 .carousel_item img {
   /* 
+  
     Setting width, rather than max-width or min-width,
     means annoying pop-ins won't happen
     but it also means you need to format your images to be compatible
