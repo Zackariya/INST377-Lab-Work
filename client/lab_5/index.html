@@ -1,5 +1,44 @@
-<!-- Bring in your successful HTML/CSS from the Flexbox lab -->
-<!-- Your page will need a form in it with an 'action' to /api and a single text field with an id/name of "resto" -->
-<!-- If you open /routes/apiRoutes and go to line 38 you will find the server side answer to your request! -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zackariya Mohamed's Labs for INST377</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<!-- Temporarily unhook your script.js file from your main index file -->
+  <body>
+    <div class="wrapper">
+
+      <header class="header">   
+        <h1>Zackariya Mohamed Labs for INST377</h1>
+      </header>
+
+      <div class="container">
+
+        <div class="box">
+          <h3>Form Inputs</h3>
+          <div class="box">
+            <div>Restaraunts Name</div>
+            <form action="/api">
+              <label for="resto"> </label>
+               <input type="text" name="resto" id="resto" />
+               <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="box">
+          <h3> <center>Local Restaraunts </center></h3>
+          <div class="box">A list of local restaraunts</div>
+        </div>
+
+      </div>
+      <footer class="footer">
+        <footer><p> <b> Zackariya: </b> <a href="https://github.com/Zackariya" target="_blank" rel="noopener noreferrer"> My Github Account</a> </footer> </p> 
+      </footer>
+    </div>
+
+   
+  </body>
+</html>
+
