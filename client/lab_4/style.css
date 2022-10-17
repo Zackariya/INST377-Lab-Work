@@ -217,5 +217,11 @@ form label {
     /* check it out by using your developer tools to shrink your screen-size */
     .container {
       background-color: rgba(21, 0, 254, 0.65);
+      margin: 10px 100px 100px 20px;
+      display: grid;
+      justify-content:center;
+      align-items: normal;
     }
+    
+
 }
